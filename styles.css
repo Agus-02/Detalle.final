@@ -85,13 +85,21 @@ body {
   font-size: 1.2rem;
 }
 
+.galeria-d-bg {
+  background-image: url('Assets/HOME.fotos/background.descanso-08.png'); /* Cambiá el path si hace falta */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   padding-bottom: 8rem;
+}
+
 
 
 /* SUSCRIPCIÓN STYLES*/
 .seccion-suscripciones {
   background-color: #1a1a1a; /* o el color que quieras */
   /* también podés poner una imagen */
-  background-image: url('Assets/HOME.fotos/background.section-09.png');
+  background-image: url('Assets/HOME.fotos/background.sectiontodo-09.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
