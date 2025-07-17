@@ -139,22 +139,109 @@ body {
 
 /* 4. HERO */
 
-/* 2. HERO SECTION */
+/* HERO: Estilo específico para el contenido tipo KING PACK */
 .hero-section {
-  background-image: url('Assets/HOME.fotos/web\ hero-29.png'); /* tu imagen horizontal */
+  background-image: url('Assets/HOME.fotos/web hero-29.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
-  padding-top: 100px; /* ya lo tenías inline, lo movemos acá mejor */
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-/* Versión para celular */
+.hero-section .container {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content {
+  color: #fff;
+  font-family: 'Instrument Serif', serif;
+}
+
+.hero-content h1 {
+  font-size: 6rem;
+  font-weight: 400;
+}
+
+.hero-content span {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #a9d100; /* ese verde lima de la imagen */
+  display: block;
+  margin: 1rem 0;
+}
+
+.hero-content ul {
+  font-family: 'Instrument Serif', serif;
+  font-size: 2rem;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.hero-content ul li {
+  margin-bottom: 0.5rem;
+}
+
+.hero-content .btn-lima {
+  background-color: #a9d100;
+  color: #000;
+  font-weight: 700;
+  border: none;
+  padding: 12px 32px;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.hero-content .btn-lima:hover {
+  background-color: #c3eb2f;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .hero-section {
-    background-image: url('Assets/HOME.fotos/mobile.hero2.png'); /* imagen vertical para mobile */
-    background-position: center top; /* opcional */
+  .hero-content h1 {
+    font-size: 2.5rem;
   }
+
+  .hero-content span {
+    font-size: 1.5rem;
+  }
+
+  .hero-content ul {
+    font-size: 1rem;
+  }
+
+  .hero-section {
+    background-image: url('Assets/HOME.fotos/mobile.hero2.png');
+    background-position: center top;
+    text-align: center;
+  }
+
+  .hero-content .btn-lima {
+    width: 100%;
+  }
+}
+
+
+.box-incluye-list {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #fff; /* o #212529 si tu fondo es claro */
+}
+
+.box-incluye-list i {
+  color: #ffffff; /* el mismo verde lima del botón */
+  font-size: 1.2rem;
 }
 
 
@@ -551,7 +638,7 @@ img.rounded-circle {
 }
 
 .h2-custom {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 400;
   line-height: 1.3;
   color: var(--white);
