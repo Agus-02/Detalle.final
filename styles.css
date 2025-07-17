@@ -45,7 +45,7 @@ body {
 
 /* Subtítulo chiquito */
 .subtitulo-vino {
-  font-family:'Instrument Serif', serif ;
+  font-family:var(--font-family-inter) ;
   font-size: 1rem;
   color: #5d0000;
   margin-bottom: 0.2rem;
