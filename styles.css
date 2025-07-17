@@ -25,13 +25,68 @@ body {
 }
 
 .seccion-experimenta {
-  background-color: #1a1a1a; /* o el color que quieras */
-  /* también podés poner una imagen */
-  background-image: url('Assets/HOME.fotos/background.1-08.png');
+  background-color: #f4f2ee;
+  background-image: url('Assets/HOME.fotos/background.section-09.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  color: #4b1c1b;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
+
+.seccion-experimenta .h2-custom {
+  color: #5d0000 !important; /* OK si querés forzar ese color. Si usás .titulo-wineswap no hace falta */
+}
+
+.seccion-experimenta .beneficio-texto {
+  color: #5d0000 !important; /* Podés borrarla si ya no usás .beneficio-texto en esa sección */
+}
+
+/* Subtítulo chiquito */
+.subtitulo-vino {
+  font-family:'Instrument Serif', serif ;
+  font-size: 1rem;
+  color: #5d0000;
+  margin-bottom: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* Título principal */
+.titulo-wineswap {
+  font-family: 'Instrument Serif', serif ;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Texto descriptivo */
+.texto-wineswap {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #4f0100;
+}
+
+/* Lista sin bullets con íconos */
+.lista-wineswap {
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #4f0100;
+}
+
+.lista-wineswap i {
+  color: #4f0100;
+  font-size: 1.2rem;
+}
+
+
+
 /* SUSCRIPCIÓN STYLES*/
 .seccion-suscripciones {
   background-color: #1a1a1a; /* o el color que quieras */
@@ -243,6 +298,15 @@ body {
   color: #ffffff; /* el mismo verde lima del botón */
   font-size: 1.2rem;
 }
+
+.box-incluye-bg {
+  background-image: url('Assets/HOME.fotos/background.1-08.png'); /* cambiá el nombre por el real */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
 
 
 .row.p-5 {
