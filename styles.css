@@ -85,6 +85,13 @@ body {
   font-size: 1.2rem;
 }
 
+.logo-pago {
+  width: 150px;
+  height: 100px;
+  object-fit: contain; /* mantiene proporciones y evita deformación */
+}
+
+
 .galeria-d-bg {
   background-image: url('Assets/HOME.fotos/background.descanso-08.png'); /* Cambiá el path si hace falta */
   background-size: cover;
@@ -357,6 +364,9 @@ p {
 .btn-dark {
   background-color: var(--btn-color);
   border: none;
+  color: #000 !important;
+  font-family: var(--font-family-inter);
+  font-weight: 600;
 }
 
 .btn-dark:hover {
@@ -640,7 +650,7 @@ form button.btn-primary {
   height: 40px;
   border-radius: 50%;
   background-color: #a5e000;
-  color: white;
+  color: rgb(0, 0, 0);
   border: none;
   display: none;
   align-items: center;
@@ -666,13 +676,30 @@ footer {
   font-size: 1rem;         /* un poco más chico */
   padding-top: 0.3rem;        /* menos espacio arriba */
   padding-bottom: 1rem;       /* o incluso 0.5rem si querés más compacto */
-  color: #ccc;
+  color: #000000;
 }
 
 .footer-logo {
   max-width: 120px;
   height: auto;
   display: block;
+}
+
+.footer-section {
+  background-image: url('Assets/HOME.fotos/background.section-09.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #111; /* Texto general del footer */
+}
+
+.footer-section a {
+  color: #111; /* Links en negro */
+}
+
+.footer-section a:hover {
+  color: #000; /* Hover más oscuro */
+  text-decoration: underline;
 }
 
 
