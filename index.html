@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Configuración básica del documento -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla Visible - Belluccia 3</title>
+
+    <!-- Tipografía desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Framework CSS de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAVBAR: Menú de navegación fijo superior -->
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <!-- Logo o nombre del sitio -->
+    <img src="Assets/HOME.fotos/logo.uva-07.png" class="img-fluid img-rounded" alt="Imagen navbar">
+    <!-- Botón para mostrar menú en mobile -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Ítems del menú -->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">COMO FUNCIONA</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">SERVICIOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">EQUIPO</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">CONTACTO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /NAVBAR -->
+
+<!-- HERO: Sección de portada con llamado a la acción --> 
+<section class="hero-section d-flex align-items-center" style="min-height: 100vh; padding-top: 100px;">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Texto principal -->
+      <div class="col-lg-6">
+        <h1 class="h1-custom">TODOS LOS MESES UNA NUEVA EXPERIENCIA</h1>
+        <p class="p-custom">Sin salir de casa, sin dejar de explorar. Conocé las bodegas virtuales. <br> Una experiencia de los mejores sabores sin salir de tu casa ¡Comenzá ahora!</p>
+        <div class="d-flex gap-3 mt-4">
+          <a href="#" class="btn btn-dark">Viví la experiencia</a>
+        </div>
+      </div>
+    
+    </div>
+  </div>
+</section>
+<!-- /HERO -->
+
+
+<!-- SECCIÓN G: Beneficios destacados en cards con íconos de Bootstrap -->
+<section class="section-spacing container text-center py-5">
+  <h2 class="mb-5 text-uppercase" class="h2-custom">¿CÓMO FUNCIONA UVA CLUB?</h2>
+  <div class="row">
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 p-4 shadow-sm">
+      <img src="Assets/HOME.fotos/icons-04.png" alt="icon-img" class="icon-img mb-3">
+        <h5>ELEGÍ</h5>
+        <p class="beneficio-texto tipografia-inter">Escogé tu plan real. Para cada mes <span style="font-weight: 700;"> recibir <br>tus vinos </span> seleccionados.</p>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 p-4 shadow-sm">
+     <img src="Assets/HOME.fotos/icons-05.png" alt="icon-img" class="icon-img mb-3">
+
+        <h5>SELECCIONAMOS</h5>
+        <p class="beneficio-texto tipografia-inter"> <span style="font-weight: 700;">Escogemos lo mejor de nuestra bodega </span><br> de la temporada del año</p>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 p-4 shadow-sm">
+       <img src="Assets/HOME.fotos/icons-06.png" alt="icon-img" class="icon-img mb-3">
+        <h5>ENVIAMOS</h5>
+        <p class="beneficio-texto tipografia-inter">Envíamos<span style="font-weight: 700;"> tu box <br>todos los meses</span> a tu casa, sin moverte</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECCIÓN B: Imagen izquierda, texto derecha -->
+<section class="section-spacing container">
+  <div class="row align-items-center">
+    <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mb-4 mb-lg-0">
+      <img src="Assets/HOME.fotos/1.home.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+    <!-- Columna de texto -->
+    <div class="col-lg-6">
+      <h2 class="display-5" class="h2-custom">EL ARTE DE SELECCIONAR</h2>
+      <p class="beneficio-texto tipografia-inter">En Uva Club seleccionamos <span style="font-weight: 700;">vinos de distintas bodegas</span>, regiones y estilos.Y lo condensamos en una caja llena de placer. <br>Cada botella fue elegida por su carácter, su historia y su momento.
+<br>Un recorrido curado para quienes buscan algo más que una copa: una experiencia.</p>
+    
+    </div>
+  </div>
+</section>
+
+<!-- SECCIÓN C: Texto izquierda, imagen derecha -->
+<section class="section-spacing seccion-experimenta">
+  <div class="container">
+  <div class="row align-items-center">
+    <!-- Columna de texto -->
+    <div class="col-lg-6">
+      <h2 class="display-5" class="h2-custom">EXPERIMENTÁ</h2>
+      <p class="beneficio-texto tipografia-inter">Entre esas miles de especies, elegí la nuestra:<span style="font-weight: 700;"> <br>la vid, fuente de rituales, descubrimientos y placer.</span>
+
+<br>Con los de siempre, con los que mas 
+amas, junto a Uva club.</p>
+    </div>
+    <!-- Columna de imagen -->
+    <div class="col-lg-6 text-center mt-4 mt-lg-0">
+      <img src="Assets/HOME.fotos/2.home.png" class="img-fluid img-rounded" alt="Imagen ilustrativa">
+    </div>
+  </div>
+</section>
+
+<!-- PLANES DE SUSCRIPCIÓN: Sección con 3 opciones destacadas -->
+<section class="section-spacing seccion-suscripciones text-center planes-bg">
+  <div class="container">
+  <h2 class="h2-custom">LLENÁ TU COPA</h2>
+  <p class="beneficio-texto tipografia-inter planes-bg p">Conocé <span style="font-weight: 700;"> nuestras BOX disponibles</span>
+y suscribite a este reinado de placer</p>
+  
+  <div class="row mt-5 limite-pack">
+    
+    <!-- Card: Plan Básico -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100 card-duke">
+        
+        <!-- Imagen ilustrativa -->
+        <img src="Assets/HOME.fotos/caja-10.png" class="img-fluid img-rounded my-3" alt="Plan Básico">
+
+         <!-- Título y precio -->
+        <h5 class="text-uppercase">DUKE PACK</h5>
+        <p class="planes-white" >$49.000 <small>/ mes</small></p>
+
+        <!-- Descripción -->
+        
+        <!-- Lista de beneficios -->
+         
+        <ul class="list-unstyled text-start beneficio-texto tipografia-inter" style="max-width: 250px;">
+          <li>✔ 1 vino de 1L</li>
+          <li>✔ Kit bienvenida</li>
+          <li>✔ Cata digital</li>
+          <li>✖ Maridaje</li>
+          <li>✖ Actualizaciones</li>
+        </ul>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-primary mt-3">ESCOGER PLAN</a>
+      </div>
+    </div>
+
+    <!-- Card: Plan Pro (Recomendado) -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100 border border-primary card-king">
+        
+        <!-- Imagen ilustrativa -->
+        <img src="Assets/HOME.fotos/cajaking-12.png" class="img-fluid img-rounded my-3" alt="Plan Pro">
+
+        <!-- Título y precio -->
+        <h5 class="text-uppercase">KING PACK</h5>
+        <p class="planes-white">$55.000 <small>/ mes</small></p>
+
+        <!-- Descripción -->
+    
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start beneficio-texto tipografia-inter" style="max-width: 250px;">
+          <li>✔ 3 vinos de 1L</li>
+          <li>✔ Cata digital</li>
+          <li>✔ Maridaje sleccionado</li>
+          <li>✔ Kit bienvenida</li>
+          <li>✔ Herramientas premium</li>
+        </ul>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-primary mt-3">ESCOGER PLAN</a>
+      </div>
+    </div>
+
+    <!-- Card: Plan Full -->
+    <div class="col-md-4 mb-4">
+      <div class="card p-4 h-100 card-prince">
+        
+        <!-- Imagen ilustrativa -->
+        <img src="Assets/HOME.fotos/caja-11.png" class="img-fluid img-rounded my-3" alt="Plan Full">
+
+        <!-- Título y precio -->
+        <h5 class="text-uppercase">PRINCE PACK</h5>
+        <p class="planes-white">$60.000 <small>/ mes</small></p>
+
+        <!-- Descripción -->
+
+        
+        <!-- Lista de beneficios -->
+        <ul class="list-unstyled text-start beneficio-texto tipografia-inter" style="max-width: 250px;">
+           <li>✔ 2 vinos de 1L</li>
+          <li>✔ Cata digital</li>
+          <li>✔ Maridaje sleccionado</li>
+          <li>✔ Kit bienvenida</li>
+          <li>✖Herramientas premium</li>
+        </ul>
+
+        <!-- Botón CTA -->
+        <a href="#" class="btn btn-primary mt-3">ESCOGER PLAN</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- /PLANES DE SUSCRIPCIÓN -->
+
+
+<!-- SECCIÓN D: Dos columnas iguales con texto e imagen -->
+<section class="section-spacing seccion-vinito">
+ <div class="container">
+  <div class="row align-items-center">
+    <!-- Imagen a la izquierda -->
+    <div class="col-md-6 text-center mb-4 mb-md-0">
+      <img src="Assets/HOME.fotos/hombreuva-14.png" class="img-fluid w-100" alt="Imagen">
+    </div>
+    <!-- Texto a la derecha -->
+    <div class="col-md-6 text-center text-md-start">
+      <h2 class="text-vino">CORONÁ TU DÍA <br> CON UNA COPA <br> DE VINO</h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- GALERÍA B: Masonry layout con column-count (hay controles en el css)-->
+<section class="section-spacing container py-5">
+  <h2 class="text-center mb-5 text-uppercase" class="h2-custom">COMO DISFRUTAN NUESTROS MIEMBROS</h2>
+  
+  <div class="masonry__container">
+    <img class="masonry__item" src="Assets/HOME.fotos/400x300--18.png" alt="Imagen 1">
+    <img class="masonry__item" src="Assets/HOME.fotos/400x600-19.png " alt="Imagen 2">
+    <img class="masonry__item" src="Assets/HOME.fotos/400x350-20.png" alt="Imagen 3">
+    <img class="masonry__item" src="Assets/HOME.fotos/400x500-21.png" alt="Imagen 4">
+    <img class="masonry__item" src="Assets/HOME.fotos/400x250-25.png" alt="Imagen 5">
+    <img class="masonry__item" src="Assets/HOME.fotos/400X450-24.png" alt="Imagen 6">
+    <img class="masonry__item" src="Assets/HOME.fotos/400x400-22.png" alt="Imagen 7">
+    <img class="masonry__item" src="Assets/HOME.fotos/ULTIMA CARRU-23.png" alt="Imagen 8">
+  </div>
+</section>
+
+<!-- GALERÍA D: Carrusel con imagen + texto encima -->
+<section class="section-spacing container py-5 text-center">
+  <h2 class="mb-4" class="h2-custom">TESTIMONIOS DE SATISFACCIÓN</h2>
+  <div id="carouselGaleriaD" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="position-relative">
+          <img src="Assets/HOME.fotos/testi.1-16.png" class="img-fluid w-75" alt="Imagen 1">
+        
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="position-relative">
+          <img src="Assets/HOME.fotos/testi.2-17.png" class="img-fluid w-75" alt="Imagen 2">
+      
+        </div>
+      </div>
+    </div>
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleriaD" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleriaD" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+
+<!-- FAQS: Preguntas frecuentes -->
+<section class="section-spacing container">
+  <h2 class="h2-custom text-center">PREGUNTAS FRECUENTES</h2>
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <div class="accordion" id="faqLeft">
+        <!-- Pregunta 1 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+              ¿Puedo elegir los vinos que recibo?
+              <span class="faq-icon"></span>
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+            <div class="accordion-body">
+              No es posible, pero quedate tranqui, que nuestra selección es con los más altos estándares de calidad.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+              ¿Qué hacer si quiero más vino?
+              <span class="faq-icon"></span>
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+            <div class="accordion-body">
+              Pedilo desde tu perfil. ¡Siempre hay más!
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+              ¿Puedo recibir vinos sin alcohol?
+              <span class="faq-icon"></span>
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqLeft">
+            <div class="accordion-body">
+              Aún no, pero lo estamos evaluando. ¡Gracias por la sugerencia!
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="accordion" id="faqRight">
+        <!-- Pregunta 4 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+              ¿Cómo obtener más productos?
+              <span class="faq-icon"></span>
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+            <div class="accordion-body">
+              Explorá los packs adicionales desde tu cuenta.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+              Quiero acceder a un pack familiar
+              <span class="faq-icon"></span>
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+            <div class="accordion-body">
+              Aún no contamos con plan familiar.
+            </div>
+          </div>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed d-flex justify-content-between align-items-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix">
+              ¿Hay compromiso de permanencia?
+              <span class="faq-icon"></span>
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#faqRight">
+            <div class="accordion-body">
+              No, podés cancelar cuando quieras. Sin vueltas.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- /FAQS -->
+
+<!-- CONTACT FORM: Formulario de contacto -->
+<section class="section-spacing container contacto-formulario">
+  <div class="row align-items-center">
+    <!-- Imagen a la izquierda -->
+    <div class="col-md-6 d-none d-md-block">
+      <img src="Assets/HOME.fotos/contacto-28.png" alt="Foto contacto" class="img-fluid">
+    </div>
+
+    <!-- Formulario a la derecha -->
+    <div class="col-md-6">
+      <p class="mb-1  beneficio-texto tipografia-inter">Contáctanos</p>
+      <h2 class=".h2-custom">QUEREMOS SABER DE VOS</h2>
+
+      <form>
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control-custom" placeholder="NOMBRE">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control-custom" placeholder="APELLIDO">
+          </div>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control-custom" rows="4" placeholder="TU CONSULTA ACÁ"></textarea>
+        </div>
+        <button type="submit" class="btn btn-lima w-100 mt-2">ENVIAR</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- /CONTACT FORM -->
+<!-- SECTION con fondo + contenido del footer -->
+<section class="footer-section text-white py-5" style="background-image: url('Assets/HOME.fotos/'); background-size: cover; background-position: center;">
+  <div class="container">
+    <div class="row text-start">
+      <!-- Logo y dirección -->
+      <div class="col-12 col-md-3 mb-4">
+      <img src="Assets/HOME.fotos/logo.uva-07.png" alt="UVA Club logo" class="footer-logo mb-3">
+
+        <p class="mb-0">Av. Premium 321<br>Buenos Aires, Argentina<br>Teléfono +54 11 2356 8322</p>
+      </div>
+
+      <!-- Inicio -->
+      <div class="col-6 col-md-2 mb-4">
+        <h6 class="fw-bold">inicio</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Cómo funciona</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Historia</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Suscripciones</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Testimonios</a></li>
+          <li><a href="#" class="text-white text-decoration-none">FQA</a></li>
+        </ul>
+      </div>
+
+      <!-- WineSwap -->
+      <div class="col-6 col-md-3 mb-4">
+        <h6 class="fw-bold">WineSwap</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Qué es</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Cómo funciona</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Intercambios</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Ofertas</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Términos y condiciones</a></li>
+        </ul>
+      </div>
+
+      <!-- Ayuda -->
+      <div class="col-12 col-md-4">
+        <h6 class="fw-bold">AYUDA</h6>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Atención al cliente</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Términos y condiciones</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Política de Privacidad</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer legal aparte (sin fondo, más chico) -->
+<footer class="text-center py-4">
+  <div class="text-center pt-3">
+    <p class="footer-copy">© 2025 Belluccia 3 - Visible Template. Todos los derechos reservados Agustina Romero.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap Bundle JS (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+
+<!-- Script personalizado para cambiar el navbar al hacer scroll -->
+<script>
+window.addEventListener('scroll', function() {
+  const navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('scrolled', window.scrollY > 50);
+});
+</script>
+
+<!-- Scripts adicionales -->
+<script src="scripts.js"></script>
+<!-- Botón Scroll to Top -->
+<!-- Botón Scroll to Top -->
+<button id="btn-scroll-top" class="scroll-top-btn">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<script>
+  const btnScrollTop = document.querySelector('.scroll-top-btn');
+  const footer = document.querySelector('footer');
+
+  // Verificar si el footer está visible en pantalla
+  function checkFooterInView() {
+    const rect = footer.getBoundingClientRect();
+    const isVisible = rect.top < window.innerHeight && rect.bottom >= 0;
+
+    if (isVisible) {
+      btnScrollTop.classList.add('show');
+    } else {
+      btnScrollTop.classList.remove('show');
+    }
+  }
+
+  // Scroll suave al top
+  btnScrollTop.addEventListener('click', () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
+
+  // Escuchar scroll
+  window.addEventListener('scroll', checkFooterInView);
+</script>
+
+
+
+
+</body>
+</html>
